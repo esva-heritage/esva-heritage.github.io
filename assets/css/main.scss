@@ -27,7 +27,12 @@ $medium-color: #00AB6C;
 $codepen-color: black;
 $rss-color: #ff6600;
 
-body {
+html,
+body,
+.site,
+.wrapper,
+.container,
+.page-content {
   background-color: #FBF4DC !important;
 }
 
