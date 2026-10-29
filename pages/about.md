@@ -4,4 +4,8 @@ title: About
 permalink: /about
 ---
 
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme, check out [the documentation]({{ site.github.url }}{% post_url 2016-10-10-getting-started %}).
+Residents and stakeholders on the Eastern Shore of Virginia are currently undertaking a grassroots, community-driven approach to heritage conservation and economic development in the form of a National Park Service National Heritage Area (NHA). 
+
+National Heritage Areas are designated places where historic, cultural, and national resources combine to form cohesive, nationally important landscapes. Unlike national parks, NHAs are large, lived-in landscapes. Leveraging funds and long-term support for projects, NHA partnerships foster pride of place and an enduring stewardship ethic. The benefits of NHAs include education and stewardship, an improved quality of life for citizens, and increased community engagement and pride.
+
+Residents of the Eastern Shore of Virginia include people who have moved here and people whose families have been here since before the 1600s. The priorities in the cultural landscape and heritage for these two groups can differ. Additionally, heritage tourism is an important economic development focus of ESVA Tourism. Because of environmental threats and other economic pressures, many of the heritage sites and cultural events are in danger of disappearing. These assets need to be protected, which includes identification, public education, and a management plan. The NHA will provide federal support and technical assistance to accomplish this.
