@@ -4,6 +4,8 @@ title: About
 permalink: /about
 ---
 
+![photo description](/assets/img/esva-4.png)
+
 Residents and stakeholders on the Eastern Shore of Virginia are currently undertaking a grassroots, community-driven approach to heritage conservation and economic development in the form of a National Park Service National Heritage Area (NHA). 
 
 National Heritage Areas are designated places where historic, cultural, and national resources combine to form cohesive, nationally important landscapes. Unlike national parks, NHAs are large, lived-in landscapes. Leveraging funds and long-term support for projects, NHA partnerships foster pride of place and an enduring stewardship ethic. The benefits of NHAs include education and stewardship, an improved quality of life for citizens, and increased community engagement and pride.
