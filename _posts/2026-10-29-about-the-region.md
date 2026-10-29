@@ -13,7 +13,7 @@ xyz
 ### Indigenous Roots
 aaa
 
-![image description](/assets/img/esva-3.jpg)
+![image description](/assets/img/esva-3.png)
 
 ### Colonial Settlement
 aaa
