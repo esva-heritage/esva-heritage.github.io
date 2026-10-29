@@ -12,7 +12,7 @@ $container-width: 1100px;
 $tablet-width: 600px;
 $phone-width: 480px;
 
-$header-thickness: 56px;
+$header-thickness: 200px;
 
 $icon-transition-time: 1.0s;
 $envelope-color: #f39c12;
@@ -27,13 +27,5 @@ $medium-color: #00AB6C;
 $codepen-color: black;
 $rss-color: #ff6600;
 
-html,
-body,
-.site,
-.wrapper,
-.container,
-.page-content {
-  background-color: #FBF4DC !important;
-}
 
 @import "-sections-dir";
