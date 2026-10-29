@@ -7,7 +7,6 @@ $code-font-family: "Source Code Pro", monospace;
 
 $brand-color: black;
 
-$body:{background-color: #FBF4DС; /* Replace with your preferred color */}
 
 $container-width: 1100px;
 $tablet-width: 600px;
@@ -27,5 +26,7 @@ $pinterest-color: #bd081c;
 $medium-color: #00AB6C;
 $codepen-color: black;
 $rss-color: #ff6600;
+
+body {background-color: #FBF4DС;}
 
 @import "-sections-dir";
