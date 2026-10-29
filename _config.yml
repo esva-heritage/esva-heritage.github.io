@@ -11,8 +11,8 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "ESVA National Heritage Area"
-description:	       "a minimalist Jekyll theme for running a blog or publication"
-author:              "Paul Le"
+description:	       "a website which documents the effort to make the Eastern Shore of Virginia a National Heritage Area under the National Park Service"
+author:              "ESVA Heritage"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
