@@ -4,7 +4,7 @@ title: "About the Region"
 author: "ESVA Heritage"
 categories: resources
 tags: [documentation,sample]
-image: esva 1.jpg
+image: esva-1.png
 ---
 
 ## History of the Shore
