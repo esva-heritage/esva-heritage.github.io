@@ -30,10 +30,12 @@ $rss-color: #ff6600;
 
 @import "-sections-dir";
 
+# changing the body color
 body {
 background-color: #FBF4DC;
 }
 
+# changing the site heading and footer color
 .site-header {
 background: #FBF4DC;
 }
@@ -42,6 +44,7 @@ background: #FBF4DC;
     background-color: #FBF4DC;
 }
 
+# changing the post title and website title colors on the home page
 .featured-post h2,
 .featured-post h2 span {
     color: #97BED7 !important;
@@ -50,4 +53,9 @@ background: #FBF4DC;
 .site-title,
 .site-title a {
 color: #97BED7 !important;
+}
+
+# changing the social media icon color
+.site-header .menu-link {
+color: #234B5D !important;
 }
