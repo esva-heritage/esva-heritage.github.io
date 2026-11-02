@@ -262,6 +262,10 @@ This theme is completely free and open source software. You may use it however y
 
 * [Free Code Camp](https://www.freecodecamp.org)
 
+git commit --allow-empty -m "Trigger GitHub Pages rebuild"
+git push
+
+
 * [Khan Academy](https://www.khanacademy.org/)
 
 ## License
