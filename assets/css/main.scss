@@ -63,3 +63,16 @@ font-size: 32px !important;
     line-height: 64px !important;
 }
 
+/* Make header social media icons visible */
+.site-header .menu-list a.menu-link i.fa,
+.site-header .dropdown-content a.menu-link i.fa {
+    color: #343434 !important;
+    font-size: 20px;
+}
+
+/* Change icon color when hovering */
+.site-header .menu-list a.menu-link:hover i.fa,
+.site-header .dropdown-content a.menu-link:hover i.fa {
+    color: #AB333D !important;
+}
+
