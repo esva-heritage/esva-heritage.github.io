@@ -3,7 +3,7 @@ layout: post
 title: "Community Engagement"
 author: "ESVA Heritage"
 categories: documentation
-tags: 
+tags: [esva]
 image: esva-6.png
 image_alt: "Description of what is shown in esva-6.png"
 ---
