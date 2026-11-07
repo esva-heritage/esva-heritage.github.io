@@ -11,6 +11,7 @@ menu:
 - {name: 'The Study',        url: 'the-study'}
 - {name: 'The Shore',   url: 'the-shore'}
 - {name: 'Engagement',   url: 'engagement'}
+- {name: 'Our Landscape', url: 'landscape'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
