@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Explore Us"
+title: "The Shore"
 author: "ESVA Heritage"
 categories: facts
 tags: [sample]
