@@ -10,7 +10,7 @@ image_alt: "Description of what is shown in ESVA_engagement.jpg"
 
 <figure class="photo-credit">
   <figcaption>
-    Photo credit: Image provided by Eastern Shore of Virginia Tourism
+    Photo credit: Image of Onancock Hopkins and Brother Store provided by Eastern Shore of Virginia Tourism
   </figcaption>
 </figure>
 
