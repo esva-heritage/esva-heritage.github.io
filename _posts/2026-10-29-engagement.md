@@ -8,6 +8,12 @@ image: ESVA_engagement.jpg
 image_alt: "Description of what is shown in ESVA_engagement.jpg"
 ---
 
+<figure class="photo-credit">
+  <figcaption>
+    Photo credit: Image provided by Eastern Shore of Virginia Tourism
+  </figcaption>
+</figure>
+
 Public interest and participation are essential for a successful feasibility study. Possible engagement strategies can include organizational outreach, meetings, and workshops to best engage the public and measure support.
 
 Sample Questions:
