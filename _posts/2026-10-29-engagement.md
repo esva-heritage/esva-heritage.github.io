@@ -4,8 +4,8 @@ title: "Community Engagement"
 author: "ESVA Heritage"
 categories: documentation
 tags: [esva]
-image: esva-6.png
-image_alt: "Description of what is shown in esva-6.png"
+image: ESVA_engagement.jpg
+image_alt: "Description of what is shown in ESVA_engagement.jpg"
 ---
 
 Public interest and participation are essential for a successful feasibility study. Possible engagement strategies can include organizational outreach, meetings, and workshops to best engage the public and measure support.
