@@ -14,11 +14,30 @@ image_alt: "Description of what is shown in ESVA_engagement.jpg"
   </figcaption>
 </figure>
 
-Public interest and participation are essential for a successful feasibility study. Possible engagement strategies can include organizational outreach, meetings, and workshops to best engage the public and measure support.
+## The Importance of Community Participation
 
-Sample Questions:
+The history of Virginia's Eastern Shore is shaped by the people, places, traditions, and experiences of the individuals that call it home. While historical records and existing research provide an important foundation, some of the Shore's most meaningful stories are preserved through local knowledge, family histories, and personal experiences that may not be widely documented.
 
-- How would the creation of the Eastern Shore of Virginia National Heritage Area affect the communities and/or resources within the designated area, negatively or positively?
-- Do you have comments or concerns about the suggested preliminary themes for the proposed Eastern Shore of Virginia National Heritage Area?
-- Do you have suggestions for additional themes or subthemes that tell the nationally significant stories of the Eastern Shore of Virginia region? If so, how are these themes represented (resources, traditions, customs, or beliefs) in the proposed Eastern Shore of Virginia National Heritage Area?
+Community participation is essential to understanding what makes this region historically and culturally significant. The feasibility study provides an opportunity to identify important historical resources, recognize underrepresented stories, and better understand the connections between the Shore's communities and its shared heritage.
 
+Whether you are a lifelong resident, a recent community member, a local historian, or someone with an interest in the region's history, your perspective can help shape how the Eastern Shore's heritage is understood, recognized, and preserved for future generations.
+
+## Questions to Consider
+
+### Important People, Places, and Events
+
+What individuals, communities, historical sites, or events have played an important role in shaping the Eastern Shore? Are there particular landmarks, organizations, or historical figures that deserve greater recognition?
+
+### Cultural Traditions and Community Identity
+
+What traditions, industries, practices, and experiences have helped define life on the Eastern Shore? Consider the region's maritime heritage, agriculture, local businesses, foodways, arts, architecture, and community celebrations. What aspects of the Shore's cultural identity should be preserved and shared with future generations?
+
+### Overlooked Stories and Underrepresented Histories
+
+Whose stories do you feel are missing from the existing historical record? Are there particular communities, experiences, or historical events that deserve more attention? We are especially interested in identifying histories that may not be widely documented or represented in traditional accounts of the Eastern Shore.
+
+## Contribute to the Study
+
+Community submissions will help inform the Eastern Shore of Virginia National Heritage Area feasibility study by providing additional perspectives on the region's historical and cultural significance. The project team will review contributions to identify recurring themes, historically significant places, underrepresented stories, and opportunities for further research.
+
+To help with this process, we invite you to contribute your knowledge and perspectives using the form below.
