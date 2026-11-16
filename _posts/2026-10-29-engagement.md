@@ -5,7 +5,7 @@ author: "ESVA Heritage"
 categories: documentation
 tags: [esva]
 image: ESVA_engagement.jpg
-image_alt: "Description of what is shown in ESVA_engagement.jpg"
+image_alt: "View of the Onancock Hopkins and Brother Store; a Victorian store front with a pale bluish-gray exterior."
 ---
 
 <figure class="photo-credit">
