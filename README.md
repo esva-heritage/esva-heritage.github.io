@@ -19,6 +19,10 @@
    4. [Posts](#posts)
    5. [Layouts](#layouts)
    6. [YAML Front Block Matter](#yaml-front-block-matter)
+   7. [Managing navigation and site settings](#Managing-navigation-and-site-settings)
+   8. [Adding images and photo credits](#Adding-images-and-photo-credits)
+   9. [Updating the interactive map and engagement form](Updating-the-interactive-map-and-engagement-form)
+   10. [Publishing Changes](#Publishing-Changes)
 6. [Features](#features)
    1. [Design Considerations](#design-considerations)
    2. [Disqus](#disqus)
@@ -146,6 +150,48 @@ image:
 
 `layout` specifies which layout to use, `title` is the page or post title, `categories` can be used to better organize your posts, `tags` are used when generating related posts based on the topic of the post, and `image` specifies which images to use. Have a look at some posts in the `_posts` directory to see how these variables are set.
 
+### Managing navigation and site settings
+
+- Edit `_data/settings.yml` to change the navigation menu, social media links, contact link, and other theme settings.
+- Edit `_config.yml` to change site-wide Jekyll settings, the site title and description, permalink behavior, or the configured plugins.
+- When adding a new page that should appear in the main menu, add its name and URL to the `menu` list in `_data/settings.yml`.
+
+### Adding images and photo credits
+
+1. Add the image file to `assets/img/` (or the relevant existing asset folder).
+2. Reference it from a page or post using the correct path. For example:
+
+   ```markdown
+   ![A description of what is visible in the photograph](/assets/img/example-image.jpg)
+   ```
+
+3. Write useful alternative text that conveys the image's relevant content. Avoid using a filename or generic wording as the description.
+4. Add a visible photo credit near the image when a credit is required. Include the photographer, organization, archive, or other source as appropriate, and make sure the credit is accurate.
+5. Check that the image loads on the published website and that it displays properly on mobile and desktop screens.
+
+Do not assume that an image is free to reuse simply because it is available online. Confirm usage rights and retain any required attribution.
+
+### Updating the interactive map and engagement form
+
+The **Shore** section includes an interactive map, and the **Community Engagement** section includes an embedded contribution form. When updating either feature, preserve the provider's current embed code and confirm that the embedded content works on the live site. Test the page at desktop and mobile widths, and provide a meaningful heading or explanation so visitors understand what the embedded feature is for.
+
+### Publishing Changes
+
+The public website is hosted through GitHub Pages at [https://esva-heritage.github.io/](https://esva-heritage.github.io/).
+
+A typical update workflow is:
+
+1. Create a branch for the change.
+2. Edit the relevant page, post, image, stylesheet, or configuration file.
+3. Preview the site locally with `bundle exec jekyll serve`.
+4. Check links, images, alternative text, photo credits, navigation, and embedded content.
+5. Commit and push the changes, then open a pull request for review when appropriate.
+6. Merge the approved changes into the branch configured for GitHub Pages publishing.
+7. Check the repository's **Actions** tab and **Settings → Pages** if the published site does not update or a build fails.
+
+Allow the GitHub Pages build to complete, then review the live website to confirm that the changes appear as expected.
+
+
 ## Features
 
 ### Design Considerations
@@ -189,6 +235,7 @@ Millennial provides syntax highlighting through [fenced code blocks](https://hel
 ### Markdown
 
 As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the [Markdown syntax](https://guides.github.com/features/mastering-markdown/). Examples of these text formatting features can be seen below. You can find this post in the `_posts` directory as well as the `README.md` file.
+
 
 ## Everything Else
 
