@@ -24,6 +24,12 @@ Whether you are a lifelong resident, a recent community member, a local historia
 
 ![An image of a young man speaking to Eastern Shore residents at a community engagement event](/assets/img/community_engagement.jpg)
 
+<figure class="photo-credit">
+  <figcaption>
+    Photo credit: Image of community engagement meeting provided by Cara Burton
+  </figcaption>
+</figure>
+
 ## Questions to Consider
 
 ### Important People, Places, and Events
