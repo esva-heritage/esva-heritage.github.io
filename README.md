@@ -1,26 +1,40 @@
-# Millennial
+# Eastern Shore of Virginia National Heritage Area
 
-Millennial is a minimalist Jekyll theme for running a simple, clean, content-focused publishing platform for your publication site or blog through [Github Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/Millennial/). For a guide on how to deploy a Jekyll site using GitHub Pages, please check out [this article](https://paulle.ca/jekyll-tutorials/deploy-jekyll-site-github-pages).
 
-If you like my work then please consider supporting me with [Ko-fi](https://ko-fi.com/paulle).
+**Website:** [https://esva-heritage.github.io/](https://esva-heritage.github.io/)  
+**Repository:** [https://github.com/esva-heritage/esva-heritage.github.io](https://github.com/esva-heritage/esva-heritage.github.io)
 
-![alt text](https://user-images.githubusercontent.com/8409329/32801138-33a72030-c94a-11e7-8a62-6184e6df5a8f.png "Millennial Demo Image")
 
-## Notable features
-
-* Compatible with GitHub Pages.
-
-* Support for Jekyll's built-in Sass/SCSS preprocessor and data files for making customizing easier.
-
-* [Google Analytics](https://www.google.com/analytics/) support.
-
-* Commenting support powered by [Disqus](https://disqus.com/).
-
-* Optimized for search engines.
-
-* LaTeX support through [MathJax](https://www.mathjax.org/).
 
 ## Table of Contents
+
+1. [About the Project](#about-the-project)
+2. [Website Sections](#website-sections)
+3. [Built With](#built-with)
+4. [Repository Structure](#repository-structure)
+5. [Configuration](#configuration)
+   1. [Sample Posts](#sample-posts)
+   2. [Site Variables](#site-variables)
+   3. [Adding Menu Pages](#adding-menu-pages)
+   4. [Posts](#posts)
+   5. [Layouts](#layouts)
+   6. [YAML Front Block Matter](#yaml-front-block-matter)
+6. [Features](#features)
+   1. [Design Considerations](#design-considerations)
+   2. [Disqus](#disqus)
+   3. [Google Analytics](#google-analytics)
+   4. [RSS Feeds](#rss-feeds)
+   5. [Social Media Icons](#social-media-icons)
+   6. [MathJax](#mathjax)
+   7. [Syntax Highlighting](#syntax-highlighting)
+   8. [Markdown](#markdown)
+7. [Making a change to the Millennial Layout](#Making-a-change-to-the-Millennial-Layout)
+8. [Questions?](#questions)
+8. [Credits](#credits)
+9. [License](#license)
+
+
+
 
 1. [Introduction](#introduction)
    1. [What is Jekyll](#what-is-jekyll)
@@ -52,33 +66,37 @@ If you like my work then please consider supporting me with [Ko-fi](https://ko-f
 8. [Credits](#credits)
 9. [License](#license)
 
-## Introduction
 
-Millennial is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
+## About the Project
 
-### What is Jekyll?
+This repository contains the source code and content for the Eastern Shore of Virginia (ESVA) National Heritage Area website. The site documents and supports the community-driven feasibility study exploring whether the Eastern Shore of Virginia should become a **National Heritage Area (NHA)**.
 
-Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Basically, Jekyll takes your page content along with template files and produces a complete website. For more information, visit the [official Jekyll site](https://jekyllrb.com/docs/home/) for their documentation. Codecademy also offers a great course on [how to deploy a Jekyll site](https://www.codecademy.com/learn/deploy-a-website) for complete beginners.
+The website is intended to help residents, organizations, visitors, and other stakeholders learn about the study, explore the region's historic and cultural resources, and contribute local knowledge. It highlights the relationship between heritage conservation, community identity, and locally informed economic development.
 
-### Never Used Jekyll Before?
+**Project status:** The website documents an ongoing feasibility study. It does not indicate that the Eastern Shore of Virginia has already been designated as a National Heritage Area. Designation requires additional steps beyond the feasibility study, including federal legislation.
 
-The beauty of hosting your website on GitHub is that you don't have to actually have Jekyll installed on your computer. Everything can be done through the GitHub code editor, with minimal knowledge of how to use Jekyll or the command line. All you have to do is add your posts to the `_posts` directory and edit the `_config.yml` file to change the site settings. With some rudimentary knowledge of HTML and CSS, you can even modify the site to your liking. This can all be done through the GitHub code editor, which acts like a content management system (CMS).
+## Website Sections
 
-## Installation
+The public website is organized around three primary sections:
 
-### GitHub Pages Installation
+- **The Study** – Explains the National Heritage Area concept, why the Eastern Shore is considering designation, what a feasibility study involves, and answers frequently asked questions.
+- **The Shore** – Introduces historic and cultural places across the region through an interactive map and curated resources.
+- **Community Engagement** – Describes why public participation matters, poses questions to help identify important places and underrepresented stories, and provides a way for community members to contribute to the study.
 
-To start using Jekyll right away with GitHub Pages, [fork the Millennial repository on GitHub](https://github.com/LeNPaul/Millennial/fork). From there, you can rename your repository to `USERNAME.github.io`, where `USERNAME` is your GitHub username, and edit the `settings.yml` file in the `_data` folder to your liking. Ensure that you have a branch named `gh-pages`. Your website should be ready immediately at 'http://USERNAME.github.io'. Note: if you are hosting several sites under the same GitHub username, then you will have to use [Project Pages instead of User Pages](https://help.github.com/articles/user-organization-and-project-pages/) - just change the repository name to something other than 'http://USERNAME.github.io'.
+The home page introduces the project and provides access to these sections. Site navigation and social media links are configured in `_data/settings.yml`.
 
-Head over to the `_posts` directory to view all the posts that are currently on the website, and to see examples of what post files generally look like. You can simply just duplicate the template post and start adding your own content.
+## Built With
 
-### Local Installation
+The website is built with:
 
-For a full local installation of Millennial, [download your own copy of Millennial](https://github.com/LeNPaul/Millennial/archive/gh-pages.zip) and unzip it into it's own directory. From there, open up your favorite command line tool, enter `bundle install`, and then enter `jekyll serve`. Your site should be up and running locally at [http://localhost:4000](http://localhost:4000).
+- **[Jekyll](https://jekyllrb.com/)** – Static site generator that converts Markdown, HTML, layouts, and data into a website.
+- **[GitHub Pages](https://pages.github.com/)** – Hosting and publishing platform.
+- **Liquid, HTML, and Markdown** – Used for page templates and content.
+- **Sass/SCSS and CSS** – Used to style the site.
 
-### Directory Structure
+The project is based on the **[Millennial Jekyll theme](https://github.com/LeNPaul/Millennial)**. The repository's Jekyll configuration includes the `jekyll-paginate`, `jekyll-sitemap`, `jekyll-feed`, and `jekyll-seo-tag` plugins.
 
-If you are familiar with Jekyll, then the Millennial directory structure shouldn't be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the [Jekyll documentation site](https://jekyllrb.com/docs/structure/).
+## Repository Structure
 
 ```bash
 Millennial/
@@ -101,10 +119,6 @@ Millennial/
 ├── README.md                  # Includes all of the documentation for this theme
 └── rss-feed.xml               # Generates RSS 2.0 file which Jekyll points to
 ```
-
-### Starting From Scratch
-
-To completely start from scratch, simply delete all the files in the `_posts`, `assets/img`, and `pages` folder, and add your own content. You may also replace the `README.md` file with your own README. Everything in the `_data` folder and `_config.yml` file can be edited to suit your needs. You may also change the `favicon.ico` file to your own favicon.
 
 ## Configuration
 
@@ -216,15 +230,15 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
 
-## Contributing
+## Making a change to the Millennial Layout
 
-If you would like to make a feature request, or report a bug or typo in the documentation, then please [submit a GitHub issue](https://github.com/LeNPaul/Millennial/issues/new). If you would like to make a contribution, then feel free to [submit a pull request](https://help.github.com/articles/about-pull-requests/) - as a bonus, I will credit all contributors below! If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+If you would like to make a feature request, or report a bug or typo in the documentation, then please [submit a GitHub issue](https://github.com/LeNPaul/Millennial/issues/new) with the creator of the theme. If you would like to make a contribution, then feel free to [submit a pull request](https://help.github.com/articles/about-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
 
 Millennial has been designed as a base for users to customize and fit to their own unique needs. Please keep this in mind when requesting features and/or submitting pull requests. Some examples of changes that I would love to see are things that would make the site easier to use, or better ways of doing things. Please avoid changes that do not benefit the majority of users.
 
 ## Questions?
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Millennial%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/Millennial/issues/new).
+This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at the creator](https://twitter.com/intent/tweet?text=My%question%about%Millennial%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/Millennial/issues/new).
 
 ## Credits
 
