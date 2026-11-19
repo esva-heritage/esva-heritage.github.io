@@ -22,7 +22,7 @@ Community participation is essential to understanding what makes this region his
 
 Whether you are a lifelong resident, a recent community member, a local historian, or someone with an interest in the region's history, your perspective can help shape how the Eastern Shore's heritage is understood, recognized, and preserved for future generations.
 
-![An image of a handsome young man speaking to Eastern Shore residents at a community engagement event](/assets/img/community_engagement.jpg)
+![An image of a young man speaking to Eastern Shore residents at a community engagement event](/assets/img/community_engagement.jpg)
 
 <figure class="photo-credit">
   <figcaption>
