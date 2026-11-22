@@ -70,7 +70,7 @@ Millennial/
 ├── _includes                  # Theme includes
 ├── _layouts                   # Theme layouts (see below for details)
 ├── _posts                     # Where all your posts will go
-├── sass                       # Folder containing SCSS files
+├── _sass                       # Folder containing SCSS files
 ├── assets                     # Style sheets and images are found here
 |  ├── css                     # Style sheets go here
 |  |  └── main.scss            # Main SCSS file
