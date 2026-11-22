@@ -13,22 +13,19 @@
 3. [Built With](#built-with)
 4. [Repository Structure](#repository-structure)
 5. [Configuration](#configuration)
-   1. [Sample Posts](#sample-posts)
-   2. [Site Variables](#site-variables)
-   3. [Posts](#posts)
-   4. [Managing navigation and site settings](#Managing-navigation-and-site-settings)
-   5. [Adding images and photo credits](#Adding-images-and-photo-credits)
-   6. [Updating the interactive map and engagement form](Updating-the-interactive-map-and-engagement-form)
-   7. [Publishing Changes](#Publishing-Changes)
+   1. [Site Variables](#site-variables)
+   2. [Posts](#posts)
+   3. [Managing navigation and site settings](#Managing-navigation-and-site-settings)
+   4. [Adding images and photo credits](#Adding-images-and-photo-credits)
+   5. [Updating the interactive map and engagement form](#Updating-the-interactive-map-and-engagement-form)
+   6. [Publishing Changes](#Publishing-Changes)
 6. [Features](#features)
    1. [Disqus](#disqus)
-   2. [Google Analytics](#google-analytics)
-   3. [RSS Feeds](#rss-feeds)
-   4. [Social Media Icons](#social-media-icons)
-   5. [MathJax](#mathjax)
-   6. [Syntax Highlighting](#syntax-highlighting)
-   7. [Markdown](#markdown)
-7. [Credits and License](#creidts-and-license)
+   2. [RSS Feeds](#rss-feeds)
+   3. [Social Media Icons](#social-media-icons)
+   4. [Syntax Highlighting](#syntax-highlighting)
+   5. [Markdown](#markdown)
+7. [Credits and License](#credits-and-license)
 
 
 
@@ -45,7 +42,7 @@ The website is intended to help residents, organizations, visitors, and other st
 The public website is organized around three primary sections:
 
 - **The Study** – Explains the National Heritage Area concept, why the Eastern Shore is considering designation, what a feasibility study involves, and answers frequently asked questions.
-- **The Shore** – Introduces historic and cultural places across the region through an interactive map and curated resources.
+- **The Shore** – Introduces historic and cultural places across the region through an interactive map and curated resources. Includes featured community stories.
 - **Community Engagement** – Describes why public participation matters, poses questions to help identify important places and underrepresented stories, and provides a way for community members to contribute to the study.
 
 The home page introduces the project and provides access to these sections. Site navigation and social media links are configured in `_data/settings.yml`.
@@ -64,36 +61,35 @@ The project is based on the **[Millennial Jekyll theme](https://github.com/LeNPa
 ## Repository Structure
 
 ```bash
-Millennial/
 ├── _data                      # Data files
 |  └── settings.yml            # Theme settings and custom text
 ├── _includes                  # Theme includes
 ├── _layouts                   # Theme layouts (see below for details)
 ├── _posts                     # Where all your posts will go
-├── _sass                       # Folder containing SCSS files
+├── _sass                      # Folder containing SCSS files
 ├── assets                     # Style sheets and images are found here
 |  ├── css                     # Style sheets go here
 |  |  └── main.scss            # Main SCSS file
 |  |  └── syntax.css           # Style sheet for code syntax highlighting
 |  └── img                     # Images go here
 ├── pages                      # Category pages
-├── _config.yml                # Site build settings
+├── .gitignore                 # Excludes generated files and local development directories
+├── 404.md                     # Custom not-found page
 ├── Gemfile                    # Ruby Gemfile for managing Jekyll plugins
-├── index.html                 # Home page
 ├── LICENSE.md                 # License for this theme
-├── README.md                  # Includes all of the documentation for this theme
+├── README.md                  # Project documentation
+├── _config.yml                # Site build settings
+├── favicon.ico                # Website icon
+├── index.html                 # Home page
+├── millennial.gemspec         # Defines the theme and its Ruby dependencies
 └── rss-feed.xml               # Generates RSS 2.0 file which Jekyll points to
 ```
 
 ## Configuration
 
-### Sample Posts
-
-Visit the [the demo site](https://lenpaul.github.io/Millennial/) to find sample posts that show what different types of text formatting look like. You can find these posts in the `_posts` folder, which show what the best practices for setting up your own site are.
-
 ### Site Variables
 
-To change site build settings, edit the `_config.yml` file found in the root of your repository, which you can tweak however you like. More information on configuration settings and plugins can be found on [the Jekyll documentation site](https://jekyllrb.com/docs/configuration/). This is also where you will be able to customize the title, description, and the author/owner of your site.
+To change site build settings, edit the `_config.yml` file found in the root of your repository, which you can tweak however you like. More information on configuration settings and plugins can be found on [the Jekyll documentation site](https://jekyllrb.com/docs/configuration/). The _config.yml file controls the site's overall configuration, including its title, description, permalink structure, and Jekyll plugins. The _data/settings.yml file controls the navigation menu, social media links, and other theme-specific settings.
 
 In the `settings.yml` file found in the `_data` folder, you will be able to customize your site settings, such as setting Disqus comments, Google Analytics, what shows up in your menu, and social media information.
 
@@ -168,11 +164,8 @@ Allow the GitHub Pages build to complete, then review the live website to confir
 
 ### Disqus
 
-Millennial supports comments at the end of posts through [Disqus](https://disqus.com/). In order to activate Disqus commenting, set `disqus.comments` to true in the `_data/settings.yml` file. If you do not have a Disqus account already, you will have to set one up, and create a profile for your website. You will be given a `disqus_shortname` that will be used to generate the appropriate comments sections for your site. More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/).
+Millennial supports comments at the end of posts through [Disqus](https://disqus.com/). In order to activate Disqus commenting, set `disqus.comments` to true in the `_data/settings.yml` file. If you do not have a Disqus account already, you will have to set one up, and create a profile for your website. You will be given a `disqus_shortname` that will be used to generate the appropriate comments sections for your site. More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/). Currently, Disqus commenting is disabled.
 
-### Google Analytics
-
-It is possible to track your site statistics through [Google Analytics](https://www.google.com/analytics/). Similar to Disqus, you will have to create an account for Google Analytics, and enter the correct Google ID for your site under `google-ID` in the `settings.yml` file. More information on [how to set up Google Analytics](https://michaelsoolee.com/google-analytics-jekyll/). Note: If you are not using Google Analytics, please change `google-ID` to an empty string.
 
 ### RSS Feeds
 
@@ -188,13 +181,11 @@ To use RSS 2.0, ensure the following is done:
 
 * In `_includes/head.html`, comment out `{% feed_meta %}` and uncomment the line under the RSS 2.0 comment.
 
+Atom is currently enabled and RSS 2.0 is an optional, unconfigured alternative.
+
 ### Social Media Icons
 
 All social media icons are courtesy of [Font Awesome](http://fontawesome.io/). You can change which icons appear, as well as the account that they link to, in the `settings.yml` file in the `_data` folder.
-
-### MathJax
-
-Millennial comes out of the box with [MathJax](https://www.mathjax.org/), which allows you to display mathematical equations in your posts through the use of [LaTeX](http://www.andy-roberts.net/writing/latex/mathematics_1).
 
 ### Syntax Highlighting
 
